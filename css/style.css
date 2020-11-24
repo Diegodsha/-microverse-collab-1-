@@ -1,8 +1,27 @@
+body {
+	background-color: rgba(114, 9, 183, 0.8);
+	font-size: larger;
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
 #image {
 	width: 100%;
 	height: auto;
 	max-width: max-content;
 	display: block;
+	border-radius: 50%;
+}
+figcaption {
+	text-align: center;
+	margin-top: 1rem;
 }
 
 #img-div {
